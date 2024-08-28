@@ -22,6 +22,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img alt="CyberDev Screenshot" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/master/images/CyberDev_Screenshot.png" />
+</p>
+
 ## Installation via VS Code
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
