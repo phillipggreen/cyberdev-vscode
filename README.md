@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="CyberDev Logo" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/tree/master/images/logo.png" width="100" />
+  <img alt="CyberDev Logo" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/blob/master/images/logo.png" width="100" />
 </p>
 
 <h1 align="center">
