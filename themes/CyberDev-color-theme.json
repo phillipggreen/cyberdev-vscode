@@ -1,0 +1,843 @@
+{
+	"name": "Halcyon",
+	"type": "dark",
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"function": {
+			"foreground": "#00FFFF", // Cyan for functions
+			"italic": false
+		},
+		"variable": "#FF66FF", // Bright Pink for variables
+		"variable.declaration": "#CC99FF", // Light Purple for variable declarations
+		"parameter": "#FF66FF", // Bright Pink for parameters
+		"interface": "#9966FF", // Vibrant Purple for interfaces
+		"type": "#9966FF", // Vibrant Purple for types
+		"property": "#FF66FF", // Bright Pink for properties
+		"property.readonly": "#E0E0FF", // Light Cyan for readonly properties
+		"selfParameter": "#00FFFF" // Cyan for self parameter
+	},
+	"colors": {
+		// Base colors remain unchanged
+		"focusBorder": "#8695b777",
+		"foreground": "#E0E0FF", // Light Cyan for general text
+		"widget.shadow": "#00030F",
+		"selection.background": "#8695b777",
+		"descriptionForeground": "#E0E0FF", // Light Cyan for descriptions
+		"errorForeground": "#FF33FF", // Bright Pink for errors
+
+		// Text colors
+		"textBlockQuote.background": "#2f3b54",
+		"textBlockQuote.border": "#2f3b54",
+		"textCodeBlock.background": "#171c28",
+		"textLink.activeForeground": "#66CCFF", // Electric Blue for active links
+		"textLink.foreground": "#66CCFF", // Electric Blue for links
+		"textPreformat.foreground": "#E0E0FF",
+		"textSeparator.foreground": "#E0E0FF",
+
+		// Button control
+		"button.background": "#9966FF", // Vibrant Purple for buttons
+		"button.foreground": "#171c28",
+		"button.hoverBackground": "#9966FF99", // Slightly transparent Vibrant Purple
+
+		// Dropdown control
+		"dropdown.background": "#2f3b54",
+		"dropdown.listBackground": "#171c28",
+		"dropdown.border": "#2f3b54",
+		"dropdown.foreground": "#E0E0FF", // Light Cyan for dropdown text
+
+		// Input control
+		"input.background": "#1d2433",
+		"input.border": "#2f3b54",
+		"input.foreground": "#E0E0FF", // Light Cyan for input text
+		"input.placeholderForeground": "#8695b777",
+		"inputOption.activeBorder": "#2f3b54",
+		"inputValidation.errorBackground": "#1d2433",
+		"inputValidation.errorForeground": "#FF33FF", // Bright Pink for error text
+		"inputValidation.errorBorder": "#FF33FF",
+		"inputValidation.infoBackground": "#1d2433",
+		"inputValidation.infoForeground": "#66CCFF", // Electric Blue for info text
+		"inputValidation.infoBorder": "#66CCFF",
+		"inputValidation.warningBackground": "#1d2433",
+		"inputValidation.warningForeground": "#9966FF", // Vibrant Purple for warnings
+		"inputValidation.warningBorder": "#9966FF",
+
+		// Scrollbar control
+		"scrollbar.shadow": "#00030F",
+		"scrollbarSlider.activeBackground": "#8695b777",
+		"scrollbarSlider.background": "#8695b755",
+		"scrollbarSlider.hoverBackground": "#8695b799",
+
+		// Badge
+		"badge.foreground": "#1d2433",
+		"badge.background": "#66CCFF", // Electric Blue for badges
+
+		// Progress bar
+		"progressBar.background": "#66CCFF", // Electric Blue for progress bar
+
+		// Lists and trees
+		"list.activeSelectionBackground": "#2f3b54",
+		"list.activeSelectionForeground": "#E0E0FF", // Light Cyan for active selection
+		"list.dropBackground": "#2f3b54",
+		"list.focusBackground": "#2f3b54",
+		"list.focusForeground": "#E0E0FF", // Light Cyan for focus
+		"list.highlightForeground": "#66CCFF", // Electric Blue for highlights
+		"list.hoverBackground": "#2f3b54",
+		"list.hoverForeground": "#E0E0FF", // Light Cyan for hover text
+		"list.inactiveSelectionBackground": "#2f3b54",
+		"list.inactiveSelectionForeground": "#E0E0FF",
+		"list.inactiveFocusBackground": "#2f3b54",
+		"list.invalidItemForeground": "#FF33FF", // Bright Pink for invalid items
+		"list.errorForeground": "#FF33FF", // Bright Pink for errors
+		"list.warningForeground": "#9966FF", // Vibrant Purple for warnings
+		"listFilterWidget.background": "#2f3b54",
+		"listFilterWidget.outline": "#2f3b54",
+		"listFilterWidget.noMatchesOutline": "#FF33FF", // Bright Pink for no matches
+		"tree.indentGuidesStroke": "#2f3b54",
+
+		// Activity Bar
+		"activityBar.background": "#171c28",
+		"activityBar.dropBorder": "#2f3b54",
+		"activityBar.foreground": "#E0E0FF", // Light Cyan for active items
+		"activityBar.inactiveForeground": "#8695b799",
+		"activityBar.border": "#171c28",
+		"activityBarBadge.background": "#66CCFF", // Electric Blue for badges
+		"activityBarBadge.foreground": "#171c28",
+
+		// Side Bar
+		"sideBar.background": "#171c28",
+		"sideBar.foreground": "#E0E0FF", // Light Cyan for sidebar text
+		"sideBarTitle.foreground": "#66CCFF", // Electric Blue for sidebar title
+		"sideBarSectionHeader.background": "#1d2433",
+		"sideBarSectionHeader.foreground": "#66CCFF",
+		"sideBarSectionHeader.border": "#171c28",
+
+		// Editor Groups
+		"editorGroup.border": "#2f3b54",
+		"editorGroup.dropBackground": "#2f3b54",
+		"editorGroupHeader.noTabsBackground": "#1d2433",
+		"editorGroupHeader.tabsBackground": "#171c28",
+		"editorGroupHeader.tabsBorder": "#171c28",
+		"editorGroup.emptyBackground": "#1d2433",
+		"editorGroup.focusedEmptyBorder": "#1d2433",
+
+		// Tabs
+		"tab.activeBackground": "#1d2433",
+		"tab.unfocusedActiveBackground": "#1d2433",
+		"tab.activeForeground": "#E0E0FF", // Light Cyan for active tab
+		"tab.border": "#171c28",
+		"tab.activeBorder": "#66CCFF", // Electric Blue for active border
+		"tab.unfocusedActiveBorder": "#66CCFF77",
+		"tab.activeBorderTop": "#171c28",
+		"tab.unfocusedActiveBorderTop": "#1d2433",
+		"tab.inactiveBackground": "#171c28",
+		"tab.inactiveForeground": "#E0E0FF77", // Slightly transparent Light Cyan
+		"tab.unfocusedActiveForeground": "#E0E0FF",
+		"tab.unfocusedInactiveForeground": "#E0E0FF77",
+		"tab.hoverBackground": "#2f3b54",
+		"tab.unfocusedHoverBackground": "#1d2433",
+		"tab.hoverBorder": "#66CCFF",
+		"tab.unfocusedHoverBorder": "#66CCFF77",
+		"editorPane.background": "#1d2433",
+
+		// Editor colors
+		"editor.background": "#1d2433",
+		"editor.foreground": "#E0E0FF", // Light Cyan for editor text
+		"editorLineNumber.foreground": "#8695b755",
+		"editorLineNumber.activeForeground": "#8695b7",
+		"editorCursor.background": "#1d2433",
+		"editorCursor.foreground": "#66CCFF", // Electric Blue for cursor
+
+		// Editor selection colors
+		"editor.selectionBackground": "#2f3b54",
+		"editor.selectionForeground": "#E0E0FF", // Light Cyan for selection text
+		"editor.inactiveSelectionBackground": "#8695b777",
+		"editor.selectionHighlightBackground": "#2f3b5433",
+
+		// Editor word highlight colors
+		"editor.wordHighlightBackground": "#8695b777",
+		"editor.wordHighlightStrongBackground": "#8695b777",
+
+		// Editor find/replace colors
+		"editor.findMatchBackground": "#8695b777",
+		"editor.findMatchHighlightBackground": "#8695b777",
+		"editor.findRangeHighlightBackground": "#8695b777",
+		"editor.findMatchBorder": "#66CCFF", // Electric Blue for find match border
+		"editor.hoverHighlightBackground": "#8695b777",
+		"editor.lineHighlightBackground": "#2f3b54",
+		"editor.lineHighlightBorder": "#2f3b54",
+		"editorLink.activeForeground": "#66CCFF", // Electric Blue for active links
+		"editor.rangeHighlightBackground": "#2f3b5433",
+		"editorWhitespace.foreground": "#8695b777",
+		"editorIndentGuide.background1": "#8695b733",
+		"editorIndentGuide.activeBackground1": "#8695b777",
+		"editorInlayHint.background": "#171c28",
+		"editorInlayHint.foreground": "#8695b799",
+		"editorRuler.foreground": "#2f3b54",
+		"editorCodeLens.foreground": "#E0E0FF", // Light Cyan for code lens
+		"editorBracketMatch.background": "#8695b755",
+		"editorBracketMatch.border": "#66CCFF", // Electric Blue for bracket match
+
+		// Overview Ruler
+		"editorOverviewRuler.border": "#2f3b54",
+		"editorOverviewRuler.findMatchForeground": "#66CCFF33", // Transparent Electric Blue for find match
+		"editorOverviewRuler.rangeHighlightForeground": "#8695b733",
+		"editorOverviewRuler.selectionHighlightForeground": "#8695b733",
+		"editorOverviewRuler.wordHighlightForeground": "#8695b733",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#8695b733",
+		"editorOverviewRuler.modifiedForeground": "#5ccfe6",
+		"editorOverviewRuler.addedForeground": "#bae67e",
+		"editorOverviewRuler.deletedForeground": "#FF33FF", // Bright Pink for deleted
+		"editorOverviewRuler.errorForeground": "#FF33FF", // Bright Pink for errors
+		"editorOverviewRuler.warningForeground": "#9966FF", // Vibrant Purple for warnings
+		"editorOverviewRuler.infoForeground": "#66CCFF", // Electric Blue for info
+		"editorOverviewRuler.bracketMatchForeground": "#66CCFF", // Electric Blue
+
+		// Errors and warnings
+		"editorError.foreground": "#FF33FF", // Bright Pink for errors
+		"editorWarning.foreground": "#9966FF", // Vibrant Purple for warnings
+		"editorInfo.foreground": "#66CCFF", // Electric Blue for info
+		"editorHint.foreground": "#66CCFF", // Electric Blue for hints
+
+		// Editor Gutter
+		"editorGutter.background": "#1d2433",
+		"editorGutter.modifiedBackground": "#5ccfe6",
+		"editorGutter.addedBackground": "#bae67e",
+		"editorGutter.deletedBackground": "#FF33FF", // Bright Pink for deletions
+
+		// Diff Editor colors
+		"diffEditor.insertedTextBackground": "#bae67e22",
+		"diffEditor.insertedTextBorder": "#bae67e44",
+		"diffEditor.removedTextBackground": "#FF33FF22", // Transparent Bright Pink for removed
+		"diffEditor.removedTextBorder": "#FF33FF44", // Transparent Bright Pink for removed
+		"diffEditor.border": "#2f3b54",
+
+		// Editor Widget colors
+		"editorWidget.background": "#171c28",
+		"editorWidget.border": "#171c28",
+		"editorSuggestWidget.background": "#2f3b54",
+		"editorSuggestWidget.border": "#2f3b54",
+		"editorSuggestWidget.foreground": "#E0E0FF", // Light Cyan for suggestions
+		"editorSuggestWidget.highlightForeground": "#66CCFF", // Electric Blue for highlights
+		"editorSuggestWidget.selectedBackground": "#1d2433",
+		"editorHoverWidget.background": "#2f3b54",
+		"editorHoverWidget.border": "#2f3b54",
+		"debugExceptionWidget.background": "#2f3b54",
+		"debugExceptionWidget.border": "#2f3b54",
+		"editorMarkerNavigation.background": "#2f3b54",
+		"editorMarkerNavigationError.background": "#FF33FF", // Bright Pink for navigation error
+		"editorMarkerNavigationWarning.background": "#9966FF", // Vibrant Purple for warnings
+		"editorMarkerNavigationInfo.background": "#66CCFF", // Electric Blue for info
+
+		// Peek View colors
+		"peekView.border": "#66CCFF", // Electric Blue for peek view border
+		"peekViewEditor.background": "#2f3b54",
+		"peekViewEditorGutter.background": "#1d2433",
+		"peekViewEditor.matchHighlightBackground": "#8695b7",
+		"peekViewEditor.matchHighlightBorder": "#66CCFF", // Electric Blue for match highlight
+		"peekViewResult.background": "#2f3b54",
+		"peekViewResult.fileForeground": "#8695b7",
+		"peekViewResult.lineForeground": "#E0E0FF", // Light Cyan for line text
+		"peekViewResult.matchHighlightBackground": "#66CCFF33", // Transparent Electric Blue
+		"peekViewResult.selectionBackground": "#2f3b54",
+		"peekViewResult.selectionForeground": "#E0E0FF", // Light Cyan for selection
+		"peekViewTitle.background": "#2f3b54",
+		"peekViewTitleDescription.foreground": "#8695b7",
+		"peekViewTitleLabel.foreground": "#8695b7",
+
+		// Merge Conflicts
+		"merge.currentHeaderBackground": "#66CCFF77", // Transparent Electric Blue
+		"merge.currentContentBackground": "#66CCFF22", // Transparent Electric Blue
+		"merge.incomingHeaderBackground": "#9966FF77", // Transparent Vibrant Purple
+		"merge.incomingContentBackground": "#9966FF22", // Transparent Vibrant Purple
+		"merge.border": "#8695b7",
+		"merge.commonHeaderBackground": "#2f3b5477",
+		"merge.commonContentBackground": "#2f3b5455",
+		"editorOverviewRuler.currentContentForeground": "#66CCFF", // Electric Blue
+		"editorOverviewRuler.incomingContentForeground": "#9966FF", // Vibrant Purple
+		"editorOverviewRuler.commonContentForeground": "#2f3b54",
+
+		// Panel colors
+		"panel.background": "#171c28",
+		"panel.border": "#1d2433",
+		"panel.dropBorder": "#2f3b54",
+		"panelTitle.activeBorder": "#66CCFF", // Electric Blue for active border
+		"panelTitle.activeForeground": "#E0E0FF", // Light Cyan for active title
+		"panelTitle.inactiveForeground": "#8695b7",
+		"panelInput.border": "#8695b7",
+		"panelSection.border": "#2f3b54",
+		"panelSection.dropBackground": "#2f3b54",
+		"panelSectionHeader.background": "#1d2433",
+		"panelSectionHeader.foreground": "#66CCFF", // Electric Blue for section headers
+
+		// Status Bar colors
+		"statusBar.background": "#171c28",
+		"statusBar.foreground": "#8695b7",
+		"statusBar.border": "#171c28",
+		"statusBar.debuggingBackground": "#171c28",
+		"statusBar.debuggingForeground": "#8695b7",
+		"statusBar.noFolderBackground": "#171c28",
+		"statusBar.noFolderForeground": "#8695b7",
+		"statusBarItem.activeBackground": "#2f3b54",
+		"statusBarItem.hoverBackground": "#1d2433",
+		"statusBarItem.remoteBackground": "#171c28",
+		"statusBarItem.remoteForeground": "#8695b7",
+
+		// Title Bar colors
+		"titleBar.activeBackground": "#171c28",
+		"titleBar.activeForeground": "#E0E0FF", // Light Cyan for active title
+		"titleBar.inactiveBackground": "#171c28",
+		"titleBar.inactiveForeground": "#8695b7",
+		"titleBar.border": "#171c28",
+
+		// Menu Bar colors
+		"menubar.selectionForeground": "#E0E0FF", // Light Cyan for menu selection
+		"menubar.selectionBackground": "#2f3b54",
+		"menu.foreground": "#8695b7",
+		"menu.background": "#171c28",
+		"menu.selectionForeground": "#E0E0FF", // Light Cyan for menu selection
+		"menu.selectionBackground": "#2f3b54",
+
+		// Notification colors
+		"notificationCenter.border": "#171c28",
+		"notificationCenterHeader.foreground": "#E0E0FF", // Light Cyan for notifications
+		"notificationCenterHeader.background": "#171c28",
+		"notificationToast.border": "#171c28",
+		"notifications.foreground": "#E0E0FF", // Light Cyan for notifications
+		"notifications.background": "#171c28",
+		"notifications.border": "#171c28",
+		"notificationLink.foreground": "#E0E0FF", // Light Cyan for links
+
+		// Extensions
+		"extensionButton.prominentBackground": "#9966FF", // Vibrant Purple for buttons
+		"extensionButton.prominentForeground": "#1d2433",
+		"extensionButton.prominentHoverBackground": "#9966FF99", // Transparent Vibrant Purple
+
+		// Quick Picker
+		"pickerGroup.border": "#2f3b54",
+		"pickerGroup.foreground": "#66CCFF", // Electric Blue for picker group
+
+		// Integrated Terminal colors
+		"terminal.background": "#171c28",
+		"terminal.border": "#171c28",
+		"terminal.foreground": "#E0E0FF", // Light Cyan for terminal text
+		"terminal.ansiBlack": "#2f3b54",
+		"terminal.ansiBlue": "#66CCFF", // Electric Blue for terminal blue
+		"terminal.ansiBrightBlue": "#66CCFF", // Electric Blue for bright blue
+		"terminal.ansiBrightCyan": "#00FFFF", // Cyan for bright cyan
+		"terminal.ansiBrightGreen": "#66FF99", // Neon Green for bright green
+		"terminal.ansiBrightBlack": "#444a5e",
+		"terminal.ansiBrightMagenta": "#FF66FF", // Bright Pink for bright magenta
+		"terminal.ansiBrightRed": "#FF33FF", // Bright Pink for bright red
+		"terminal.ansiBrightWhite": "#E0E0FF", // Light Cyan for bright white
+		"terminal.ansiBrightYellow": "#FFCC33", // Neon Yellow for bright yellow
+		"terminal.ansiCyan": "#00FFFF", // Cyan for terminal cyan
+		"terminal.ansiGreen": "#66FF99", // Neon Green for terminal green
+		"terminal.ansiMagenta": "#FF66FF", // Bright Pink for terminal magenta
+		"terminal.ansiRed": "#FF33FF", // Bright Pink for terminal red
+		"terminal.ansiWhite": "#E0E0FF", // Light Cyan for terminal white
+		"terminal.ansiYellow": "#FFCC33", // Neon Yellow for terminal yellow
+		"terminal.selectionBackground": "#8695b733",
+		"terminalCursor.background": "#FF33FF", // Bright Pink for cursor background
+		"terminalCursor.foreground": "#FF33FF", // Bright Pink for cursor
+
+		// Debug
+		"debugToolBar.background": "#2f3b54",
+		"debugToolBar.border": "#2f3b54",
+
+		// Welcome Page
+		"walkThrough.embeddedEditorBackground": "#171c28",
+
+		// Git colors
+		"gitDecoration.modifiedResourceForeground": "#66CCFF", // Electric Blue for modified
+		"gitDecoration.deletedResourceForeground": "#FF33FF", // Bright Pink for deleted
+		"gitDecoration.untrackedResourceForeground": "#66FF99", // Neon Green for untracked
+		"gitDecoration.ignoredResourceForeground": "#8695b777",
+		"gitDecoration.conflictingResourceForeground": "#FF33FF", // Bright Pink for conflicts
+
+		// Settings Editor colors
+		"settings.headerForeground": "#E0E0FF", // Light Cyan for headers
+		"settings.modifiedItemIndicator": "#66CCFF", // Electric Blue for modified items
+		"settings.dropdownBackground": "#2f3b54",
+		"settings.dropdownForeground": "#E0E0FF", // Light Cyan for dropdown
+		"settings.dropdownBorder": "#2f3b54",
+		"settings.dropdownListBorder": "#2f3b54",
+		"settings.checkboxBackground": "#2f3b54",
+		"settings.checkboxForeground": "#E0E0FF", // Light Cyan for checkboxes
+		"settings.checkboxBorder": "#2f3b54",
+		"settings.textInputBackground": "#2f3b54",
+		"settings.textInputForeground": "#E0E0FF", // Light Cyan for text input
+		"settings.textInputBorder": "#2f3b54",
+		"settings.numberInputBackground": "#2f3b54",
+		"settings.numberInputForeground": "#E0E0FF", // Light Cyan for number input
+		"settings.numberInputBorder": "#2f3b54",
+
+		// Breadcrumbs
+		"breadcrumb.foreground": "#8695b7",
+		"breadcrumb.background": "#1d2433",
+		"breadcrumb.focusForeground": "#E0E0FF", // Light Cyan for focus
+		"breadcrumb.activeSelectionForeground": "#E0E0FF", // Light Cyan for active selection
+		"breadcrumbPicker.background": "#171c28"
+	},
+	"tokenColors": [
+		{
+			"scope": [],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for general text
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4B5363" // Muted gray for comments
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": ["variable", "string constant.other.placeholder", "source"],
+			"settings": {
+				"foreground": "#FF66FF" // Bright Pink for variables
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": ["constant.other.color", "punctuation.definition.entity", "constant.character.entity", "punctuation.definition.template-expression", "punctuation.section.tag.twig"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for colors
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": ["invalid", "invalid.illegal"],
+			"settings": {
+				"foreground": "#FF33FF" // Bright Pink for invalid text
+			}
+		},
+		{
+			"name": "Keyword, Storage, Number, Constant",
+			"scope": ["keyword", "storage.type", "storage.modifier", "constant.numeric", "constant.language", "support.constant", "constant.character", "constant.escape"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for keywords and constants
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": ["punctuation", "punctuation.definition.tag", "punctuation.separator.inheritance.php", "punctuation.definition.tag.html", "punctuation.section.embedded", "keyword.other.template", "keyword.other.substitution", "meta.brace", "meta.block", "meta.jsx", "meta.embedded.expression", "meta.template.expression", "meta.tag.block.any.html", "string.unquoted.tag-string.nunjucks", "text.html.nunjucks"],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for operators
+			}
+		},
+		{
+			"name": "Attribute Equal Signs, handlebars operators",
+			"scope": ["punctuation.separator.key-value.html", "keyword.control", "keyword.operator", "constant.other.color", "punctuation.definition.constant", "meta.function.block.start.handlebars", "meta.function.inline.other", "meta.property-value", "support.constant.mathematical-symbols", "support.constant.vendored.property-value", "punctuation.definition.keyword", "punctuation.accessor", "punctuation.separator.property", "string.unquoted.filter-pipe"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for operators
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter", "support.variable.dom", "meta.import", "meta.export", "meta.export.default", "support.class.builtin", "support.class.component", "variable.other.object"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for tags
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": ["entity.name.function", "variable.function", "support.function", "keyword.other.special-method", "meta.function-call", "keyword.control.filter"],
+			"settings": {
+				"foreground": "#00FFFF" // Cyan for functions
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": ["meta.block variable.other"],
+			"settings": {
+				"foreground": "#CC99FF" // Light Purple for block-level variables
+			}
+		},
+		{
+			"name": "Function Argument, Tag Attribute, Embedded, Things that should be grey",
+			"scope": ["variable.parameter", "text.html", "punctuation.section.property-list", "meta.property-value.scss punctuation", "meta.property-list", "keyword.operator.type.annotation", "variable.other.object.property"],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for function arguments and attributes
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": ["string", "constant.other.symbol", "constant.other.key", "markup.heading", "markup.inserted.git_gutter", "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js", "punctuation.definition.string", "entity.name.section.markdown", "meta.attribute-selector", "entity.name.import.go", "storage.type.attr.nunjucks"],
+			"settings": {
+				"foreground": "#CC99FF" // Light Purple for strings and symbols
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": ["entity.name", "support.type", "support.orther.namespace.use.php", "meta.use.php", "support.other.namespace.php", "markup.changed.git_gutter", "support.type.sys-types", "meta.object-literal.key"],
+			"settings": {
+				"foreground": "#9966FF" // Vibrant Purple for classes
+			}
+		},
+		{
+			"name": "Entity Types",
+			"scope": ["support.type", "support.class", "keyword.other.debugger", "entity.other.inherited-class", "meta.property-name", "punctuation.definition.raw.markdown", "variable.graphql", "variable.other.readwrite"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for entity types
+			}
+		},
+		{
+			"name": "CSS Class and Support",
+			"scope": ["source.css support.type.property-name", "source.sass support.type.property-name", "source.scss support.type.property-name", "source.less support.type.property-name", "source.stylus support.type.property-name", "source.postcss support.type.property-name", "support.type.property-name", "support.variable.object.node", "support.variable.object.process"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for CSS class and support
+			}
+		},
+		{
+			"name": "Sub-methods",
+			"scope": ["entity.name.module.js", "variable.import.parameter.js"],
+			"settings": {
+				"foreground": "#FF33FF" // Bright Pink for sub-methods
+			}
+		},
+		{
+			"name": "Language methods",
+			"scope": ["variable.language"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66CCFF" // Electric Blue for language methods
+			}
+		},
+		{
+			"name": "entity.name.method.js",
+			"scope": ["entity.name.method.js"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66CCFF" // Electric Blue for methods
+			}
+		},
+		{
+			"name": "meta.method.js",
+			"scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for class methods
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": ["entity.other.attribute-name"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for attributes
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": ["text.html.basic entity.other.attribute-name.html", "text.html.basic entity.other.attribute-name"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for HTML attributes
+			}
+		},
+		{
+			"name": "CSS Classes",
+			"scope": ["entity.other.attribute-name.class", "punctuation.definition.entity.css"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for CSS classes
+			}
+		},
+		{
+			"name": "CSS ID's",
+			"scope": ["source.sass keyword.control"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for CSS IDs
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": ["markup.inserted"],
+			"settings": {
+				"foreground": "#66FF99" // Neon Green for inserted text
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": ["markup.deleted"],
+			"settings": {
+				"foreground": "#FF33FF" // Bright Pink for deleted text
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": ["markup.changed"],
+			"settings": {
+				"foreground": "#9966FF" // Vibrant Purple for changed text
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": ["string.regexp"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for regex
+			}
+		},
+		{
+			"name": "Escape Characters",
+			"scope": ["constant.character.escape"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for escape characters
+			}
+		},
+		{
+			"name": "URL",
+			"scope": ["*url*", "*link*", "*uri*"],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": ["meta.decorator", "tag.decorator.js entity.name.tag", "tag.decorator.js punctuation.definition.tag"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for decorators
+			}
+		},
+		{
+			"name": "ES7 Bind Operator",
+			"scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FF33FF" // Bright Pink for ES7 bind operator
+			}
+		},
+		{
+			"name": "JSON Key - Level 0",
+			"scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for JSON key level 0
+			}
+		},
+		{
+			"name": "JSON Key - Level 1",
+			"scope": ["source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for JSON key level 1
+			}
+		},
+		{
+			"name": "JSON Key - Level 2",
+			"scope": ["source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for JSON key level 2
+			}
+		},
+		{
+			"name": "JSON Key - Level 3",
+			"scope": ["source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for JSON key level 3
+			}
+		},
+		{
+			"name": "JSON Key - Level 4",
+			"scope": ["source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for JSON key level 4
+			}
+		},
+		{
+			"name": "JSON Key - Level 5",
+			"scope": ["source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for JSON key level 5
+			}
+		},
+		{
+			"name": "JSON Key - Level 6",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for JSON key level 6
+			}
+		},
+		{
+			"name": "JSON Key - Level 7",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for JSON key level 7
+			}
+		},
+		{
+			"name": "JSON Key - Level 8",
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for JSON key level 8
+			}
+		},
+		{
+			"name": "Markup - Italic",
+			"scope": ["markup.italic"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FF33FF" // Bright Pink for italic text
+			}
+		},
+		{
+			"name": "Markup - Bold",
+			"scope": ["markup.bold"],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FF33FF" // Bright Pink for bold text
+			}
+		},
+		{
+			"name": "Markup - Underline",
+			"scope": ["markup.underline"],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#9966FF" // Vibrant Purple for underlined text
+			}
+		},
+		{
+			"name": "Markup - Strike",
+			"scope": ["markup.strike"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFCC33" // Neon Yellow for strikethrough
+			}
+		},
+		{
+			"name": "Markup - Quote",
+			"scope": ["markup.quote"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66CCFF" // Electric Blue for quotes
+			}
+		},
+		{
+			"name": "Markup - Raw Block",
+			"scope": ["markup.raw.block"],
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for raw blocks
+			}
+		},
+		{
+			"name": "Markup - Table",
+			"scope": ["markup.table"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for tables
+			}
+		},
+		{
+			"name": "Markdown - Plain",
+			"scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for plain markdown text
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline",
+			"scope": ["text.html.markdown markup.raw.inline", "text.html.markdown markup.inline.raw.string.markdown"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for raw inline markdown
+			}
+		},
+		{
+			"name": "Markdown - Line Break",
+			"scope": ["text.html.markdown meta.dummy.line-break"],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for line breaks
+			}
+		},
+		{
+			"name": "Markdown - Heading",
+			"scope": ["markdown.heading", "markup.heading", "markup.heading entity.name", "markup.heading.markdown", "punctuation.definition.heading.markdown"],
+			"settings": {
+				"foreground": "#CC99FF" // Light Purple for headings
+			}
+		},
+		{
+			"name": "Markdown - Blockquote",
+			"scope": ["markup.quote", "punctuation.definition.blockquote.markdown"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66CCFF" // Electric Blue for blockquotes
+			}
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": ["string.other.link.title.markdown"],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#FFCC33" // Neon Yellow for links
+			}
+		},
+		{
+			"name": "Markdown - Raw Block Fenced",
+			"scope": ["markup.raw.block.fenced.markdown"],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for fenced raw blocks
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block",
+			"scope": ["punctuation.definition.fenced.markdown", "variable.language.fenced.markdown"],
+			"settings": {
+				"foreground": "#E0E0FF" // Light Cyan for fenced code blocks
+			}
+		},
+		{
+			"name": "Markdown - Fenced Language",
+			"scope": ["variable.language.fenced.markdown"],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E0E0FF" // Light Cyan for fenced language
+			}
+		},
+		{
+			"name": "Markdown - Separator",
+			"scope": ["meta.separator"],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E0E0FF" // Light Cyan for separators
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for info tokens
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for warn tokens
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#FF33FF" // Bright Pink for error tokens
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#9966FF" // Vibrant Purple for debug tokens
+			}
+		},
+		{
+			"scope": ["storage.type.error.go"],
+			"settings": {
+				"foreground": "#66CCFF" // Electric Blue for Go error type
+			}
+		},
+		{
+			"scope": "punctuation.other.period.go",
+			"settings": {
+				"foreground": "#FFCC33" // Neon Yellow for Go period punctuation
+			}
+		}
+	]
+}

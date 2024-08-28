@@ -1,0 +1,57 @@
+{
+	"name": "cyberdev",
+	"displayName": "CyberDev",
+	"description": "A Cyberpunk-themed VS Code color theme with neon accents.",
+	"version": "0.0.2",
+	"publisher": "phillipgreen",
+	"icon": "images/logo.png",
+	"author": {
+	  "name": "Phillip Green",
+	  "email": "phillip.g.green@outlook.com"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/PhilGreen-Dev/cyberdev-vscode"
+	},
+	"bugs": {
+	  "url": "https://github.com/PhilGreen-Dev/cyberdev-vscode/issues",
+	  "email": "phillip.g.green@outlook.com" 
+	},
+	"homepage": "https://github.com/PhilGreen-Dev/cyberdev-vscode#readme",
+	"galleryBanner": {
+	  "color": "#171c28",
+	  "theme": "dark"
+	},
+	"engines": {
+	  "vscode": "^1.92.0"
+	},
+	"categories": [
+	  "Themes"
+	],
+	"keywords": [
+	  "Themes",
+	  "Dark Theme",
+	  "Cyberpunk",
+	  "color-theme"
+	],
+	"contributes": {
+	  "themes": [
+		 {
+			"label": "CyberDev",
+			"uiTheme": "vs-dark",
+			"path": "./themes/CyberDev-color-theme.json"
+		 }
+	  ]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.22.5",
+		"@babel/eslint-parser": "^7.22.5",
+		"@upstatement/eslint-config": "^2.0.0",
+		"@upstatement/prettier-config": "^1.1.0",
+		"eslint": "^8.43.0",
+		"eslint-config-prettier": "^8.8.0",
+		"prettier": "^2.8.8",
+		"vsce": "^2.15.0"
+	}
+ }
+ 
