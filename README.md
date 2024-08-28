@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="CyberDev Logo" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/master/images/logo.png" width="100" />
+  <img alt="CyberDev Logo" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/tree/master/images/logo.png" width="100" />
 </p>
 
 <h1 align="center">
@@ -12,13 +12,13 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
-    <img alt="Version" src="https://img.shields.io/visual-studio-marketplace/v/phillipgreen.cyberdev-vscode?color=brightgreen" />
+    <img alt="Version" src="https://img.shields.io/visual-studio-marketplace/v/PhillipGreen.cyberdev?color=brightgreen" />
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
-    <img alt="Downloads" src="https://img.shields.io/visual-studio-marketplace/d/phillipgreen.cyberdev-vscode" />
+    <img alt="Downloads" src="https://img.shields.io/visual-studio-marketplace/d/PhillipGreen.cyberdev" />
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
-    <img alt="Installs" src="https://img.shields.io/visual-studio-marketplace/i/phillipgreen.cyberdev-vscode" />
+    <img alt="Installs" src="https://img.shields.io/visual-studio-marketplace/i/PhillipGreen.cyberdev" />
   </a>
 </p>
 
@@ -85,4 +85,3 @@ vsce publish patch/minor/major
 ## Link Below
 
 CyberDev is exclusively available for [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev).
-```
