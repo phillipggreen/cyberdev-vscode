@@ -2,7 +2,7 @@
 	"name": "cyberdev",
 	"displayName": "CyberDev",
 	"description": "A Cyberpunk-themed VS Code color theme with neon accents.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "phillipgreen",
 	"icon": "images/logo.png",
 	"author": {

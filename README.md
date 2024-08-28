@@ -85,3 +85,15 @@ vsce publish patch/minor/major
 ## Link Below
 
 CyberDev is exclusively available for [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev).
+
+## Feedback and Contributions
+
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/PhilGreen-Dev/cyberdev-vscode/issues) on GitHub. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Created by [Phillip Green](https://github.com/PhilGreen-Dev). For more projects and contact information, visit my [GitHub profile](https://github.com/PhilGreen-Dev).
