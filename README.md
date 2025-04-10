@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="CyberDev Logo" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/master/images/logo.png" width="100" />
+  <img alt="CyberDev Logo" src="https://raw.githubusercontent.com/phillipggreen/cyberdev-vscode/master/images/logo.png" width="100" />
 </p>
 
 <h1 align="center">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img alt="CyberDev Screenshot" src="https://raw.githubusercontent.com/PhilGreen-Dev/cyberdev-vscode/master/images/CyberDev_Screenshot.png" />
+  <img alt="CyberDev Screenshot" src="https://raw.githubusercontent.com/phillipggreen/cyberdev-vscode/master/images/CyberDev_Screenshot.png" />
 </p>
 
 ## Installation via VS Code
@@ -36,7 +36,7 @@
 
 ## Manual Installation
 
-Read the [VSC Extension Quickstart Guide](https://github.com/PhilGreen-Dev/cyberdev-vscode/blob/master/vsc-extension-quickstart.md)
+Read the [VSC Extension Quickstart Guide](https://github.com/phillipggreen/cyberdev-vscode/blob/master/vsc-extension-quickstart.md)
 
 ## Icon Theme
 
@@ -74,10 +74,8 @@ The file icon theme recommended for use with CyberDev is [Material Icon Theme](h
 
 ## Theming Reference
 
-[VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
-
-[VS Code Theme Documentation](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)
-
+[VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)  
+[VS Code Theme Documentation](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
 [VS Code Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension)
 
 The CyberDev theme colors are inspired by Cyberpunk aesthetics, featuring vibrant neons and deep contrasts to create a futuristic coding environment.
@@ -92,7 +90,7 @@ CyberDev is exclusively available for [Visual Studio Code](https://marketplace.v
 
 ## Feedback and Contributions
 
-If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/PhilGreen-Dev/cyberdev-vscode/issues) on GitHub. Contributions are welcome!
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/phillipggreen/cyberdev-vscode/issues) on GitHub. Contributions are welcome!
 
 ## License
 
@@ -100,4 +98,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Created by [Phillip Green](https://github.com/PhilGreen-Dev). For more projects and contact information, visit my [GitHub profile](https://github.com/PhilGreen-Dev).
+Created by [Phillip Green](https://github.com/phillipggreen). For more projects and contact information, visit my [GitHub profile](https://github.com/phillipggreen).
