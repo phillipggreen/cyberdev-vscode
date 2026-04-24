@@ -12,13 +12,16 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
-    <img alt="Version" src="https://img.shields.io/visual-studio-marketplace/v/PhillipGreen.cyberdev?color=brightgreen" />
+    <img alt="Version" src="https://img.shields.io/visual-studio-marketplace/v/PhillipGreen.cyberdev?color=22A39F&style=flat-square" />
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
-    <img alt="Downloads" src="https://img.shields.io/visual-studio-marketplace/d/PhillipGreen.cyberdev" />
+    <img alt="Installs" src="https://img.shields.io/visual-studio-marketplace/i/PhillipGreen.cyberdev?color=22A39F&style=flat-square&label=installs" />
   </a>
   <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
-    <img alt="Installs" src="https://img.shields.io/visual-studio-marketplace/i/PhillipGreen.cyberdev" />
+    <img alt="Downloads" src="https://img.shields.io/badge/downloads-500%2B-22A39F?style=flat-square" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=PhillipGreen.cyberdev">
+    <img alt="Marketplace" src="https://img.shields.io/badge/VS_Marketplace-Install-FF007C?style=flat-square&logo=visualstudiocode&logoColor=white" />
   </a>
 </p>
 
