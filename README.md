@@ -55,25 +55,30 @@ The file icon theme recommended for use with CyberDev is [Material Icon Theme](h
 
 ### Syntax Colors
 
-|                               Color                                | Usage                                           |
-| :----------------------------------------------------------------: | ----------------------------------------------- |
-| ![#FF33FF](https://via.placeholder.com/10/FF33FF.png?text=+) `#FF33FF` | Keywords, constants, operators                  |
-| ![#FFCC33](https://via.placeholder.com/10/FFCC33.png?text=+) `#FFCC33` | Functions, classes, object literal keys         |
-| ![#66FF99](https://via.placeholder.com/10/66FF99.png?text=+) `#66FF99` | Strings, markdown headings                      |
-| ![#66CCFF](https://via.placeholder.com/10/66CCFF.png?text=+) `#66CCFF` | Special keywords, classes, markdown code blocks |
-| ![#E0E0FF](https://via.placeholder.com/10/E0E0FF.png?text=+) `#E0E0FF` | Variables, property names, tags                 |
+|                               Color                                | Usage                                                      |
+| :----------------------------------------------------------------: | ---------------------------------------------------------- |
+| ![#00FFFF](https://via.placeholder.com/10/00FFFF.png?text=+) `#00FFFF` | Functions, self parameter (Cyan)                      |
+| ![#66CCFF](https://via.placeholder.com/10/66CCFF.png?text=+) `#66CCFF` | Keywords, constants, tags, entity types (Electric Blue) |
+| ![#FF66FF](https://via.placeholder.com/10/FF66FF.png?text=+) `#FF66FF` | Variables, parameters, properties (Bright Pink)       |
+| ![#CC99FF](https://via.placeholder.com/10/CC99FF.png?text=+) `#CC99FF` | Strings, declarations, headings (Light Purple)        |
+| ![#9966FF](https://via.placeholder.com/10/9966FF.png?text=+) `#9966FF` | Types, interfaces, classes (Vibrant Purple)           |
+| ![#FFCC33](https://via.placeholder.com/10/FFCC33.png?text=+) `#FFCC33` | Operators, attributes, regex (Neon Yellow)            |
+| ![#FF33FF](https://via.placeholder.com/10/FF33FF.png?text=+) `#FF33FF` | Errors, invalid, deleted (Magenta)                    |
+| ![#66FF99](https://via.placeholder.com/10/66FF99.png?text=+) `#66FF99` | Inserted text, terminal green (Neon Green)            |
+| ![#E0E0FF](https://via.placeholder.com/10/E0E0FF.png?text=+) `#E0E0FF` | General text, punctuation, whitespace                 |
+| ![#4B5363](https://via.placeholder.com/10/4B5363.png?text=+) `#4B5363` | Comments (muted, italic)                              |
 
 ### UI Colors
 
-|                               Color                                | Usage                                      |
-| :----------------------------------------------------------------: | ------------------------------------------ |
-| ![#0D0E14](https://via.placeholder.com/10/0D0E14.png?text=+) `#0D0E14` | Workbench and sidebar background           |
-| ![#1A1C23](https://via.placeholder.com/10/1A1C23.png?text=+) `#1A1C23` | Editor background                          |
-| ![#3E4B59](https://via.placeholder.com/10/3E4B59.png?text=+) `#3E4B59` | Highlight, selection, panels               |
-| ![#4B5363](https://via.placeholder.com/10/4B5363.png?text=+) `#4B5363` | Dividers, line numbers, comments           |
-| ![#C8C8C8](https://via.placeholder.com/10/C8C8C8.png?text=+) `#C8C8C8` | Status bar text, buttons, general text     |
-| ![#FF007C](https://via.placeholder.com/10/FF007C.png?text=+) `#FF007C` | Accent, keywords, important text           |
-| ![#FF00FF](https://via.placeholder.com/10/FF00FF.png?text=+) `#FF00FF` | Errors, warnings, modified highlights      |
+|                               Color                                | Usage                                         |
+| :----------------------------------------------------------------: | --------------------------------------------- |
+| ![#171c28](https://via.placeholder.com/10/171c28.png?text=+) `#171c28` | Workbench, sidebar, activity bar background |
+| ![#1d2433](https://via.placeholder.com/10/1d2433.png?text=+) `#1d2433` | Editor background                           |
+| ![#2f3b54](https://via.placeholder.com/10/2f3b54.png?text=+) `#2f3b54` | Selection, highlights, panels               |
+| ![#8695b7](https://via.placeholder.com/10/8695b7.png?text=+) `#8695b7` | Status bar text, line numbers, inactive items |
+| ![#E0E0FF](https://via.placeholder.com/10/E0E0FF.png?text=+) `#E0E0FF` | General text, foreground                    |
+| ![#66CCFF](https://via.placeholder.com/10/66CCFF.png?text=+) `#66CCFF` | Badges, active borders, progress bar        |
+| ![#FF33FF](https://via.placeholder.com/10/FF33FF.png?text=+) `#FF33FF` | Errors, deleted items, conflicts            |
 
 ## Theming Reference
 
@@ -84,7 +89,7 @@ The file icon theme recommended for use with CyberDev is [Material Icon Theme](h
 The CyberDev theme colors are inspired by Cyberpunk aesthetics, featuring vibrant neons and deep contrasts to create a futuristic coding environment.
 
 ```bash
-vsce publish patch/minor/major
+npx @vscode/vsce publish patch/minor/major
 ```
 
 ## Link Below

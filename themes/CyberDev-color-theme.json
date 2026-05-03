@@ -1,5 +1,5 @@
 {
-	"name": "Halcyon",
+	"name": "CyberDev",
 	"type": "dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -14,7 +14,14 @@
 		"type": "#9966FF", // Vibrant Purple for types
 		"property": "#FF66FF", // Bright Pink for properties
 		"property.readonly": "#E0E0FF", // Light Cyan for readonly properties
-		"selfParameter": "#00FFFF" // Cyan for self parameter
+		"selfParameter": "#00FFFF", // Cyan for self parameter
+		"class": "#9966FF", // Vibrant Purple for classes
+		"enum": "#9966FF", // Vibrant Purple for enums
+		"enumMember": "#FFCC33", // Neon Yellow for enum members
+		"namespace": "#66CCFF", // Electric Blue for namespaces
+		"decorator": "#66CCFF", // Electric Blue for decorators
+		"typeParameter": "#CC99FF", // Light Purple for type parameters
+		"macro": "#FF66FF" // Bright Pink for macros
 	},
 	"colors": {
 		// Base colors remain unchanged
@@ -376,7 +383,57 @@
 		"breadcrumb.background": "#1d2433",
 		"breadcrumb.focusForeground": "#E0E0FF", // Light Cyan for focus
 		"breadcrumb.activeSelectionForeground": "#E0E0FF", // Light Cyan for active selection
-		"breadcrumbPicker.background": "#171c28"
+		"breadcrumbPicker.background": "#171c28",
+
+		// Sash
+		"sash.hoverBorder": "#66CCFF", // Electric Blue for resize handle hover
+
+		// Command Center
+		"commandCenter.foreground": "#E0E0FF",
+		"commandCenter.activeForeground": "#E0E0FF",
+		"commandCenter.background": "#1d2433",
+		"commandCenter.activeBackground": "#2f3b54",
+		"commandCenter.border": "#2f3b54",
+		"commandCenter.inactiveForeground": "#8695b777",
+		"commandCenter.inactiveBorder": "#2f3b54",
+		"commandCenter.activeBorder": "#66CCFF",
+		"commandCenter.debuggingBackground": "#171c28",
+
+		// Chat
+		"chat.requestBackground": "#1d2433",
+		"chat.requestBorder": "#2f3b54",
+		"chat.slashCommandBackground": "#2f3b54",
+		"chat.slashCommandForeground": "#66CCFF",
+		"chat.avatarBackground": "#2f3b54",
+		"chat.avatarForeground": "#E0E0FF",
+		"chat.editedFileForeground": "#FFCC33",
+
+		// Inline Chat
+		"inlineChat.background": "#1d2433",
+		"inlineChat.border": "#2f3b54",
+		"inlineChat.shadow": "#00030F",
+		"inlineChat.regionHighlight": "#2f3b5433",
+
+		// Bracket Pair Colorization
+		"editorBracketHighlight.foreground1": "#66CCFF",
+		"editorBracketHighlight.foreground2": "#FF66FF",
+		"editorBracketHighlight.foreground3": "#FFCC33",
+		"editorBracketHighlight.foreground4": "#66FF99",
+		"editorBracketHighlight.foreground5": "#9966FF",
+		"editorBracketHighlight.foreground6": "#00FFFF",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#FF33FF",
+		"editorBracketPairGuide.background1": "#66CCFF33",
+		"editorBracketPairGuide.background2": "#FF66FF33",
+		"editorBracketPairGuide.background3": "#FFCC3333",
+		"editorBracketPairGuide.background4": "#66FF9933",
+		"editorBracketPairGuide.background5": "#9966FF33",
+		"editorBracketPairGuide.background6": "#00FFFF33",
+		"editorBracketPairGuide.activeBackground1": "#66CCFF77",
+		"editorBracketPairGuide.activeBackground2": "#FF66FF77",
+		"editorBracketPairGuide.activeBackground3": "#FFCC3377",
+		"editorBracketPairGuide.activeBackground4": "#66FF9977",
+		"editorBracketPairGuide.activeBackground5": "#9966FF77",
+		"editorBracketPairGuide.activeBackground6": "#00FFFF77"
 	},
 	"tokenColors": [
 		{
