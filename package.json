@@ -11,13 +11,13 @@
 	},
 	"repository": {
 	  "type": "git",
-	  "url": "https://github.com/PhilGreen-Dev/cyberdev-vscode"
+	  "url": "https://github.com/phillipggreen/cyberdev-vscode"
 	},
 	"bugs": {
-	  "url": "https://github.com/PhilGreen-Dev/cyberdev-vscode/issues",
+	  "url": "https://github.com/phillipggreen/cyberdev-vscode/issues",
 	  "email": "phillip.g.green@outlook.com" 
 	},
-	"homepage": "https://github.com/PhilGreen-Dev/cyberdev-vscode#readme",
+	"homepage": "https://github.com/phillipggreen/cyberdev-vscode#readme",
 	"galleryBanner": {
 	  "color": "#171c28",
 	  "theme": "dark"
