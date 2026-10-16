@@ -2,46 +2,46 @@
 	"name": "cyberdev",
 	"displayName": "CyberDev",
 	"description": "A Cyberpunk-themed VS Code color theme with neon accents.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "phillipgreen",
 	"icon": "images/logo.png",
 	"author": {
-	  "name": "Phillip Green",
-	  "email": "phillip.g.green@outlook.com"
+		"name": "Phillip Green",
+		"email": "phillip.g.green@outlook.com"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "https://github.com/phillipggreen/cyberdev-vscode"
+		"type": "git",
+		"url": "https://github.com/phillipggreen/cyberdev-vscode"
 	},
 	"bugs": {
-	  "url": "https://github.com/phillipggreen/cyberdev-vscode/issues",
-	  "email": "phillip.g.green@outlook.com" 
+		"url": "https://github.com/phillipggreen/cyberdev-vscode/issues",
+		"email": "phillip.g.green@outlook.com"
 	},
 	"homepage": "https://github.com/phillipggreen/cyberdev-vscode#readme",
 	"galleryBanner": {
-	  "color": "#171c28",
-	  "theme": "dark"
+		"color": "#171c28",
+		"theme": "dark"
 	},
 	"engines": {
-	  "vscode": "^1.92.0"
+		"vscode": "^1.92.0"
 	},
 	"categories": [
-	  "Themes"
+		"Themes"
 	],
 	"keywords": [
-	  "Themes",
-	  "Dark Theme",
-	  "Cyberpunk",
-	  "color-theme"
+		"Themes",
+		"Dark Theme",
+		"Cyberpunk",
+		"color-theme"
 	],
 	"contributes": {
-	  "themes": [
-		 {
-			"label": "CyberDev",
-			"uiTheme": "vs-dark",
-			"path": "./themes/CyberDev-color-theme.json"
-		 }
-	  ]
+		"themes": [
+			{
+				"label": "CyberDev",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CyberDev-color-theme.json"
+			}
+		]
 	},
 	"devDependencies": {
 		"@babel/core": "^7.22.5",
@@ -53,5 +53,4 @@
 		"prettier": "^2.8.8",
 		"@vscode/vsce": "^3.3.0"
 	}
- }
- 
+}
